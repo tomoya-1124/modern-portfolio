@@ -1,9 +1,8 @@
-# README.md
-
-````md
 # Modern Portfolio
 
 A modern portfolio / link hub built with Next.js, TypeScript and Tailwind CSS.
+
+---
 
 ## Overview
 
