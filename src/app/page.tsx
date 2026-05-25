@@ -2,6 +2,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import ProjectCard from "@/components/ProjectCard";
+import About from "@/components/About";
 
 import { projects } from "@/data/projects";
 
@@ -16,10 +17,14 @@ export default function Home() {
 
       <Hero />
 
+      <About />
+
+
+
       <section
-        id="projects"
-        className="mx-auto max-w-5xl px-6 pb-24"
-      >
+          id="projects"
+          className="mx-auto max-w-5xl scroll-mt-24 px-6 pb-24"
+        >
         <div className="mb-10">
           <p className="text-sm tracking-[0.3em] text-zinc-500">
             PROJECTS
