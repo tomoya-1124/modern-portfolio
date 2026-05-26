@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import ProjectCard from "@/components/ProjectCard";
 import About from "@/components/About";
-
+import Contact from "@/components/Contact";
 import { projects } from "@/data/projects";
 
 export default function Home() {
@@ -44,7 +44,8 @@ export default function Home() {
           ))}
         </div>
       </section>
-
+      <Contact />
+      
       <Footer />
     </main>
   );
